@@ -31,6 +31,10 @@ pip install -r requirements.txt
 
 # Run CLI menu
 python menu.py
+
+# Utilities:
+python utils/rename.py
+python utils/censor_images.py
 ```
 
 ## Projects

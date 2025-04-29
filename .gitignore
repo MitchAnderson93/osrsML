@@ -1,1 +1,4 @@
 venv/
+res/
+runs/
+debug/
