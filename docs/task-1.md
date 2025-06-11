@@ -16,11 +16,10 @@ This module can:
 | processes/task-1.py | Terminal script |
 | models/crab_model.pt | Identify sandcrabs |
 | training/crab/ | Image training data |
-| training/crab/ | Image training data |
 
-### Commands:
+### Commands for training model (requires exported dataset):
 ```
 # dataset exported from roboflow in our uncommited /res folder (unzipped):
-yolo detect train data=/Users/mitchellanderson/Documents/dev/osrs/imgidentifier/res/sand_crabs.v3-sand_crabs_dataset_2.0-640-.yolov8/data.yaml model=yolov8n.pt epochs=100 imgsz=640
+yolo detect train data=/Users/X/osrs/imgidentifier/res/sand_crabs.v3-sand_crabs_dataset_2.0-640-.yolov8/data.yaml model=yolov8n.pt epochs=100 imgsz=640
 
 ```
