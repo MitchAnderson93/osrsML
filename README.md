@@ -38,7 +38,7 @@ python utils/censor_images.py
 
 ## Projects
 
-### 1. Image Recognition System
+### 1. Image recognition (see Docs/)
 A computer vision-based script that performs real-time image analysis and pattern recognition (using OSRS as example)
 
 ## DISCLAIMER
