@@ -1,7 +1,7 @@
 # Applied ML using OSRS
 
 ## Overview
-This repository contains a collection of machine learning projects I have built for academic use focused on task automation through the use of computer vision and pattern recognition. 
+This repository contains a collection of machine learning projects that I have built for task automation (academic use, see disclaimer at the bottom). 
 
 ## Dependencies
 
@@ -21,7 +21,6 @@ python3 -m venv venv
 # Activate it:
 # MacOS/Linux
 source venv/bin/activate
-
 # Windows
 venv\Scripts\activate
 
@@ -30,7 +29,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 # Run CLI menu
-python menu.py
+python processes/task-1.py
 
 # Utilities:
 python utils/rename.py
@@ -40,9 +39,7 @@ python utils/censor_images.py
 ## Projects
 
 ### 1. Image Recognition System
-A computer vision-based system that performs real-time image analysis and pattern recognition. 
-
-### 2.
+A computer vision-based script that performs real-time image analysis and pattern recognition (using OSRS as example)
 
 ## DISCLAIMER
 
@@ -58,4 +55,4 @@ The underlying processes are designed to be generic and adaptable to various rea
 - Functions like writing and sending emails
 - Many others (see Contributions)
 
-and I can develop these use cases on request. 
+and I can develop any of the above on request. 
