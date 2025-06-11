@@ -1,4 +1,4 @@
-# Automation agents 
+# Applied ML using OSRS
 
 ## Overview
 This repository contains a collection of machine learning projects I have built for academic use focused on task automation through the use of computer vision and pattern recognition. 
